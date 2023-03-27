@@ -1,1 +1,1 @@
-{"version":3,"sources":["../SCSS/Main.scss","Main.css"],"names":[],"mappings":"AASA;EAEI,WAAA;ACTJ","file":"Main.css"}
+{"version":3,"sources":["../../SCSS/Partials/_Head-section.scss","Main.css","../../SCSS/Partials/_Fonts.scss","../../SCSS/Main.scss"],"names":[],"mappings":"AAIA;EACI,aAAA;EACA,qBAAA;ACHJ;ADKI;EACI,kBETM;EFUN,yBAAA;ACHR;;AEGA;EAEI,WAAA;AFDJ","file":"Main.css"}
