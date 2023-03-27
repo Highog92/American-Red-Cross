@@ -3,14 +3,12 @@
 
 
 header {
-
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    place-content: center;
 
     h1 {
         font-family: Fonts.$information;
-        
+        text-transform:uppercase ;
     }
-    img{width: 100%;}
 
 }
