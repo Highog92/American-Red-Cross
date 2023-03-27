@@ -1,8 +1,10 @@
-@use './Partials/Secondary-colors';
-@use './Partials/Primary-colors';
-@use './Partials/Neutral-colors';
-@use './Partials/Buttons';
-@use './Partials/Fonts';
+
+@use './Partials/Buttons' as *;
+@use './Partials/Fonts' as *;
+@use './Partials/Secondary-colors' as *;
+@use './Partials/Primary-colors' as *;
+@use './Partials/Neutral-colors' as *;
+@use './volunteers';
 @use "./blood-drive";
 @use "./tips";
 
