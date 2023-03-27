@@ -1,0 +1,52 @@
+@use'./Buttons';
+@use'./A-links';
+@use'./Primary-colors';
+@use'./Neutral-colors';
+@use'./Secondary-colors';
+@use'./Fonts';
+
+
+.firstresponder-hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    // background-color: Secondary-colors.$med-gray;        
+    // background: linear-gradient(165deg, rgb(65, 65, 65) 0%, rgb(66, 66, 66) 100%);
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.8),rgba(41, 36, 36, 0));
+    font-family: Fonts.$information;
+    margin-right: 10px;
+
+    img {
+        display: block;
+        width: 100%;
+    }
+
+    article {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 4vw;
+        color: Primary-colors.$white;
+    }
+
+    span {
+        color: Primary-colors.$red;
+    }
+
+    p {
+        margin-top: 35px;
+        font-size: 1.4vw;
+        color: Primary-colors.$white;
+    }
+
+
+    .action {
+        @include Buttons.button;
+        margin-bottom: 15px; 
+    }
+
+    a {
+        @include A-links.a;
+    }
+
+}
