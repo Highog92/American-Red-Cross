@@ -1,9 +1,11 @@
-@use './Partials/Buttons';
-@use './Partials/Fonts';
-@use './Partials/Secondary-colors';
-@use './Partials/Primary-colors';
-@use './Partials/Neutral-colors';
-@use './Partials/Head-section';
+
+@use './Partials/Buttons' as *;
+@use './Partials/Fonts' as *;
+@use './Partials/Secondary-colors' as *;
+@use './Partials/Primary-colors' as *;
+@use './Partials/Neutral-colors' as *;
+@use './volunteers';
+
 
 
 
