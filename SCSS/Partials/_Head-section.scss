@@ -1,0 +1,14 @@
+@use './Fonts';
+
+
+
+header {
+    display: grid;
+    place-content: center;
+
+    h1 {
+        font-family: Fonts.$information;
+        text-transform:uppercase ;
+    }
+
+}

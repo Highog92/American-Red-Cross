@@ -1,3 +1,12 @@
+header {
+  display: grid;
+  place-content: center;
+}
+header h1 {
+  font-family: Arial;
+  text-transform: uppercase;
+}
+
 body {
   width: 100%;
 }/*# sourceMappingURL=Main.css.map */
