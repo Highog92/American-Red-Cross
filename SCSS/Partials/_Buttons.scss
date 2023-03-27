@@ -2,12 +2,13 @@
 
 @mixin button {
     padding: 0.7rem 1.6rem;
-    min-height: 2rem;
     color: Primary-colors.$white;
-    background-color: primary.$red;
+    background-color: Primary-colors.$red;
     box-shadow: 0 0.2rem 0.4rem 0 rgba(0,0,0,0.15);
     border-radius: 0.3rem;
     border-style: none;
+    display: inline-block;
+    text-decoration: none
 }
 
 .primary-btn{

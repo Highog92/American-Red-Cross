@@ -1,12 +1,19 @@
-@use './Partials/Buttons';
-@use './Partials/Fonts';
 @use './Partials/Secondary-colors';
 @use './Partials/Primary-colors';
 @use './Partials/Neutral-colors';
+@use './Partials/Buttons';
+@use './Partials/Fonts';
+@use "./blood-drive";
 
 
 
 
-body {
-    width: 100%;
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+ 
+
