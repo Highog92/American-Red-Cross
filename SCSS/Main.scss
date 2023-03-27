@@ -4,6 +4,7 @@
 @use './Partials/Buttons';
 @use './Partials/Fonts';
 @use "./blood-drive";
+@use "./tips";
 
 
 
@@ -15,5 +16,6 @@
   margin: 0;
   box-sizing: border-box;
 }
+
  
 

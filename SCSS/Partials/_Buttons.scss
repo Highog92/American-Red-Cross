@@ -1,4 +1,5 @@
 @use './Primary-colors';
+@use "./Neutral-colors" as *;
 
 @mixin button {
     padding: 0.7rem 1.6rem;
@@ -13,6 +14,10 @@
 
 .primary-btn{
     @include button;
+    transition: background-color 0.2s ease;
+    &:hover{
+        background-color: $deep-red;
+    }
 }
 
 

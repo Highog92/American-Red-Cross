@@ -7,6 +7,10 @@
   border-style: none;
   display: inline-block;
   text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+.primary-btn:hover {
+  background-color: #7F181B;
 }
 
 #blood-drive {
@@ -29,7 +33,7 @@
 #blood-drive article {
   display: grid;
   place-content: center;
-  grid-column: 1/2;
+  grid-column: 2/3;
   grid-row: 1/2;
   z-index: 2;
   padding: 2rem;
@@ -41,6 +45,40 @@
 }
 #blood-drive .primary-btn {
   margin-right: auto;
+}
+
+#tips {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial;
+  margin: 5rem 0;
+}
+#tips h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  padding: 0rem 2rem;
+  max-width: 730px;
+  margin: 0 auto;
+}
+#tips .carousel {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1rem;
+}
+#tips .carousel article {
+  background-color: #6D6E70;
+  text-align: center;
+  color: #FFFFFF;
+}
+#tips .carousel img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#tips .carousel .primary-btn {
+  margin: 1rem 0;
 }
 
 *,
