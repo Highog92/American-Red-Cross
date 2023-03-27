@@ -1,0 +1,14 @@
+@use'./Primary-colors';
+
+@mixin a{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 1;
+    text-transform: uppercase;
+    min-height: 3.4rem;
+    padding: 0.7rem 6px;
+    line-height: 1.4;
+    color: Primary-colors.$white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
