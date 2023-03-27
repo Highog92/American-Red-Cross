@@ -1,3 +1,14 @@
+header {
+  display: flex;
+  flex-direction: row;
+}
+header h1 {
+  font-family: Arial;
+}
+header img {
+  width: 100%;
+}
+
 body {
   width: 100%;
 }/*# sourceMappingURL=Main.css.map */

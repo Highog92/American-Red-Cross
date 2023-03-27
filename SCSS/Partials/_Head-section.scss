@@ -1,0 +1,16 @@
+@use './Fonts';
+
+
+
+header {
+
+    display: flex;
+    flex-direction: row;
+
+    h1 {
+        font-family: Fonts.$information;
+        
+    }
+    img{width: 100%;}
+
+}
