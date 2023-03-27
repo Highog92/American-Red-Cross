@@ -1,0 +1,38 @@
+@use "./Partials/Primary-colors" as *;
+@use "./Partials/Fonts" as *;
+
+
+#tips{
+    display: flex;
+    flex-direction: column;
+    font-family: $information;
+    margin: 5rem 0;
+    h2{
+        text-align: center;
+        margin-bottom: 1rem;
+        padding: 0rem 2rem;
+        max-width: 730px;
+        margin: 0 auto;
+    }
+    .carousel{
+        padding: 2rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+        gap: 1rem;
+        article{
+            background-color: $dark-gray;
+            text-align: center;         
+            color: $white;
+        }
+        img{
+            width: 100%;
+            aspect-ratio: 1/1;
+            object-fit: cover;
+        }
+        .primary-btn{
+            margin: 1rem 0;
+        }
+        
+    }
+
+}

@@ -1,0 +1,34 @@
+@use "./Partials/Primary-colors" as *;
+@use "./Partials/Fonts" as *;
+#blood-drive{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1/2;
+    font-family: $information;
+    aside{
+        grid-column: 1/-1;
+        grid-row: 1/2;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        aspect-ratio: 12/4;
+    }
+    article{
+        display: grid;
+        place-content: center;
+        grid-column: 2/3;
+        grid-row: 1/2;
+        z-index: 2;
+        padding: 2rem;
+        color: $white;
+        gap: 1rem;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    .primary-btn{
+        margin-right: auto;
+    }
+}
